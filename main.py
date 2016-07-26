@@ -38,8 +38,8 @@ if __name__ == '__main__':
     slack_webhook_url = str(os.environ.get('SLACK_WEBHOOK_URL', env.get('SLACK_WEBHOOK_URL')))
 
     # const vars
-    step_size = 0.0016
-    step_limit = 8
+    step_size = 0.0021
+    step_limit = 6
 
     # debug vars, used to test slack integration w/o waiting
     use_cache = False
